@@ -1,0 +1,70 @@
+/* Example.css */
+
+.login-page {
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .login-container {
+    border-radius: 10px;
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    height: 350px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    font-size: 3.0rem;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #4b8edb;
+  }
+  
+  .description {
+    font-size: 1.25rem;
+    font-style: italic;
+    text-align: center;
+    color: #ec78cbe9;
+    margin-bottom: 2rem;
+  }
+  
+  .input-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #5f5e5a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #eeb329;
+  }
+  
+  
